@@ -1,8 +1,13 @@
+from operaciones.suma import sumar
+
+
 def main():
     print("=== Calculadora básica ===")
-    print(
-        "Por ahora la estructura está creada, " "las operaciones se agregarán después."
-    )
+    num1 = float(input("Introduce el primer número: "))
+    num2 = float(input("Introduce el segundo número: "))
+
+    resultado = sumar(num1, num2)
+    print(f"Resultado de la suma: {resultado}")
 
 
 if __name__ == "__main__":
