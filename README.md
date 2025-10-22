@@ -1,5 +1,7 @@
 ![CI](https://github.com/silvelo/calculadora/actions/workflows/ci.yml/badge.svg)
-
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=silvelo_calculadora&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=silvelo_calculadora)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=silvelo_calculadora&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=silvelo_calculadora)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=silvelo_calculadora&metric=bugs)](https://sonarcloud.io/summary/new_code?id=silvelo_calculadora)
 
 1. Clonar el proyecto
   
