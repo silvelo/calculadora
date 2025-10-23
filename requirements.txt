@@ -1,6 +1,6 @@
 # Testing
 pytest>=8.4.2
-pytest-cov>=7.11.0
+pytest-cov>=7.0.0
 
 # Linters / formateo
 black>=23.3.0
