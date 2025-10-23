@@ -36,3 +36,11 @@ jobs:
 
       - name: Run tests
         run: pytest --maxfail=1 --disable-warnings -q || echo "No tests found, skipping"
+
+      - name: SonarCloud Scan
+        uses: SonarCloud/sonarcloud-github-action@master
+        with:
+          projectKey: silvelo_calculadora
+          organization: silvelo
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
