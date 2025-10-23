@@ -34,8 +34,8 @@ jobs:
       - name: Run flake8 (lint)
         run: flake8 .
 
-      - name: Run tests
-        run: pytest --maxfail=1 --disable-warnings -q || echo "No tests found, skipping"
+      - name: Run tests with coverage
+        run: pytest --cov=operaciones --cov-report=xml --maxfail=1 --disable-warnings -q
 
       - name: Official SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v6.0.0
