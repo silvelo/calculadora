@@ -1,0 +1,29 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos temporales
+*.swp
+*.swo
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Distribuciones / paquetes
+dist/
+build/
+*.egg-info/
+
+# Test coverage
+.coverage
+htmlcov/
