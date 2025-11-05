@@ -1,0 +1,12 @@
+[tool.black]
+line-length = 88
+target-version = ['py311']
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.2.0"
+tag_format = "v$version"
+changelog_file = "CHANGELOG.md"
+update_changelog_on_bump = true
+
+
