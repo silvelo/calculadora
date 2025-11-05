@@ -1,0 +1,14 @@
+# Testing
+pytest>=8.4.2
+pytest-cov>=7.0.0
+
+# Linters / formateo
+black>=23.3.0
+isort>=5.10.1
+flake8>=6.1.0
+
+# Commit message validation (Python)
+commitizen>=3.27.0
+pre-commit>=3.3.3
+
+#jose jose
